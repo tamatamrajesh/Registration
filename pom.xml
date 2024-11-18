@@ -7,7 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>Registration</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
@@ -15,42 +14,18 @@
     <spring.version>5.3.12</spring.version>
     <junit.version>5.8.2</junit.version> <!-- Updated to JUnit 5 -->
     <log4j.version>1.2.17</log4j.version> <!-- Still valid, but consider upgrading to log4j 2.x -->
-    <sonar.host.url>http://13.233.89.255:9000/</sonar.host.url>
+    <sonar.host.url>http://52.66.200.29:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>sonar</sonar.password>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
-
   <dependencies>
     <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-      <version>${spring.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>${junit.version}</version>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>${log4j.version}</version>
     </dependency>
   </dependencies>
-
 </project>
-
-
-
