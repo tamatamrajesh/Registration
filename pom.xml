@@ -25,7 +25,7 @@
             <repository>
               <id>nexus</id>
               <name>Registration Releases Nexus Repository</name>
-              <url>http://65.2.9.214:8088/repository/Registration_IRCTC/</url>
+              <url>http://3.109.132.240:8088/repository/Registration/</url>
             </repository>
   </distributionManagement>
   
