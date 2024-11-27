@@ -22,23 +22,13 @@
   </properties>
 
   <distributionManagement>
-
             <repository>
               <id>nexus</id>
               <name>Registration Releases Nexus Repository</name>
-              <url>http://65.2.9.214:8088/repository/Registration/</url>
+              <url>http://65.2.9.214:8088/repository/Registration_IRCTC/</url>
             </repository>
-
-            <snapshotRepository>
-              <id>nexus</id>
-              <name>BBPS Snapshot Nexus Repository </name>
-              <url>http://65.2.9.214:8088/repository/BBPS-snapshot/</url>
-            </snapshotRepository>
-
   </distributionManagement>
   
-
-
   
   <dependencies>
     <dependency>
