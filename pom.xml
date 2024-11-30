@@ -23,10 +23,16 @@
 
   <distributionManagement>
             <repository>
-              <id>nexus</id>
-              <name>Registration Releases Nexus Repository</name>
-              <url>http://65.2.125.101:8088/repository/Registration/</url>
+                 <id>nexus</id>
+                 <name>Registration Releases Nexus Repository</name>
+                 <url>http://65.2.125.101:8088/repository/Registration_Release/</url>
             </repository>
+	          <snapshotRepository>
+	              <id>nexus</id>
+	              <name>Mithun Technologies Snapshot Nexus Repository </name>
+	              <url>http://65.2.125.101:8088/repository/Registration/</url>
+	          </snapshotRepository>
+    
   </distributionManagement>
   
   
