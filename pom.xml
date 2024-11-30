@@ -25,7 +25,7 @@
             <repository>
               <id>nexus</id>
               <name>Registration Releases Nexus Repository</name>
-              <url>http://3.109.132.240:8088/repository/Registration/</url>
+              <url>http://65.2.125.101:8088/repository/Registration/</url>
             </repository>
   </distributionManagement>
   
